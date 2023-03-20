@@ -58,7 +58,8 @@ main {
 /* Strategic Plan Section Style */
 
 /* Testimonials Section Style */
-#testimonialsSec > * {
+#testimonialsSec > * ,
+#ctaSec > div > * {
     margin: 1em 0;
 }
 

@@ -38,6 +38,11 @@
     #aboutSec > div:last-child {
         min-height: 34.5rem;
     }
+
+    /* CTA Section Style */
+    #ctaSec > div {
+        min-height: 49rem;
+    }
 }
 
 /***** LAYOUT: ONLY TABLET *****/
@@ -78,6 +83,11 @@
 
     #aboutSec > div:last-child {
         min-height: 30.5rem;
+    }
+
+    /* CTA Section Style */
+    #ctaSec > div {
+        min-height: 37rem;
     }
 } 
 
@@ -152,5 +162,10 @@
 
     #aboutSec > div:last-child {
         min-height: 26.5rem;
+    }
+
+    /* CTA Section Style */
+    #ctaSec > div {
+        min-height: 31.25rem;
     }
 }
