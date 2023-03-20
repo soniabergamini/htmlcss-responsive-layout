@@ -67,4 +67,8 @@ main {
 #benefitsSec h2 {
     margin-bottom: 1em;
 }
+
 /******** FOOTER STYLE ********/
+footer {
+    background-color: #333333;
+}

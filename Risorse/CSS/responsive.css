@@ -43,6 +43,11 @@
     #ctaSec > div {
         min-height: 49rem;
     }
+
+    /* FOOTER STYLE */
+    footer {
+        min-height: 18.75rem;
+    }
 }
 
 /***** LAYOUT: ONLY TABLET *****/
@@ -88,6 +93,11 @@
     /* CTA Section Style */
     #ctaSec > div {
         min-height: 37rem;
+    }
+
+    /* FOOTER STYLE */
+    footer {
+        min-height: 13.5rem;
     }
 } 
 
@@ -167,5 +177,10 @@
     /* CTA Section Style */
     #ctaSec > div {
         min-height: 31.25rem;
+    }
+
+    /* FOOTER STYLE */
+    footer {
+        min-height: 11.25rem;
     }
 }
