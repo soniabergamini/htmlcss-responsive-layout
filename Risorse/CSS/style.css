@@ -41,6 +41,7 @@ main {
     margin-top: 6rem;
 }
 
+/* Hero Section Style */
 #heroSec > div > div {
     border-radius: 1.5rem;
     min-height: 28.5rem;
@@ -55,4 +56,8 @@ main {
     flex-shrink: 2;
 }
 
+/* Strategic Plan Section Style */
+#strategicSec > div > div:last-child {
+    border-radius: 1.5rem;
+}
 /******** FOOTER STYLE ********/

@@ -6,13 +6,18 @@
 @media screen and (max-width: 480px) {
 
     /* All Section Style - Debug */
-    body {
-        background-color: antiquewhite;
-    }
+    body {background-color: antiquewhite;}
     
-    /* Main Style */
+    /* MAIN STYLE */
+
+    /* Hero Section Style */
     #heroSec > div:first-child {
         min-height: 79.5rem;
+    }
+
+    /* Strategic Plan Section Style */
+    #strategicSec > div > div {
+        min-height: 50rem;
     }
 }
 
@@ -20,13 +25,20 @@
 @media screen and (min-width: 480px) and (max-width: 768px) {
     
     /* All Section Style - Debug */
-    body {
-            background-color: orange;
-        }
+    body {background-color: orange;}
 
     /* Main Style */
     #heroSec > div > div {
         min-height: 26rem;
+    }
+
+    /* Strategic Plan Section Style */
+    #strategicSec > div > div:first-child {
+        min-height: 59rem;
+    }
+
+    #strategicSec > div > div:last-child {
+        min-height: 52rem;
     }
 } 
 
@@ -42,9 +54,7 @@
 @media screen and (min-width: 768px) {
 
     /* All Section Style - Debug */
-    body {
-        background-color: brown;
-    }
+    body {background-color: brown;}
 
     /* Header Style */
     nav:nth-of-type(1) {
@@ -57,5 +67,19 @@
     /* Main Style */
     #heroSec > div > div {
         min-height: 17.2rem;
+    }
+
+    /* Strategic Plan Section Style */
+    #strategicSec > div {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    #strategicSec > div > div:first-child {
+        min-height: 36.5rem;
+    }
+
+    #strategicSec > div > div:last-child {
+        min-height: 28rem;
     }
 }

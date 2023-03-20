@@ -44,6 +44,7 @@
 .bgBlue         {background-color: var(--blue);}
 .bgLilac        {background-color: var(--lilac);}
 .bgLightblue    {background-color: var(--lightblue);}
+.bgWhite        {background-color: white;}
 
 /********************************************
     UTILITY | Width, Padding, Border, Margin 
