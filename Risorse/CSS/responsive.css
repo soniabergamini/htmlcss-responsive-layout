@@ -1,9 +1,13 @@
-/* Layout: Only Desktop */
-@media screen and (min-width: 768px) {
+/**************************
+        MOBILE FIRST 
+**************************/
+
+/* Layout: Only Mobile max-width: 480px*/
+@media screen and (max-width: 480px) {
 
     /* All Section Style - Debug */
     body {
-        background-color: brown;
+        background-color: antiquewhite;
     }
 }
 
@@ -16,12 +20,23 @@
         }
 } 
 
-/* Layout: Only Mobile */
-@media screen and (max-width: 480px) {
+/* Layout: Only Desktop */
+@media screen and (min-width: 768px) {
 
     /* All Section Style - Debug */
     body {
-            background-color: antiquewhite;
-        }
-}
+        background-color: brown;
+    }
 
+    /* Header Style */
+    header {
+        max-width: ;
+    }
+
+    nav:nth-of-type(1) {
+        display: none;
+    }
+    nav:last-child {
+        display: block;
+    }
+}

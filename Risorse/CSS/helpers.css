@@ -39,6 +39,9 @@
 .listStyleNone  {list-style-type: none;}
 .visHidden      {visibility: hidden;}
 .boxShadow      {box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);}
+.bgBlue         {background-color: var(--blue);}
+.bgLilac        {background-color: var(--lilac);}
+.bgLightblue    {background-color: var(--lightblue);}
 
 /********************************************
     UTILITY | Width, Padding, Border, Margin 
@@ -46,10 +49,14 @@
 .vw100          {width: 100vw;}
 .wid100Perc     {width: 100%;}
 .wid50Perc      {width: 50%;}
-.boxPad         {padding: 1.16rem;}
+.pad2rem         {padding: 2rem;}
 .marginBottom8  {margin-bottom: 8rem !important;}
-.border         {border: 0.5px solid rgba(128, 128, 128, 0.883);}
+.border         {border: 1px solid black;}
 .borderBottom   {border-bottom: 0.5px solid grey;}
+.boxCtr         {
+    max-width: 57.5rem; /* 920px su 1536px */
+    margin: 0 auto;
+}
 
 /********************************************
         UTILITY | hover 

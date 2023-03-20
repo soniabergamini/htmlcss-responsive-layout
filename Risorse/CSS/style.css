@@ -23,5 +23,18 @@ a {
 }
 
 /******** HEADER STYLE ********/
+header {
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+header > section {
+    min-height: 6rem;
+}
+
+nav:last-child {
+    display: none;
+}
 /******** MAIN STYLE ********/
 /******** FOOTER STYLE ********/
