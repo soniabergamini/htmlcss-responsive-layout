@@ -29,6 +29,15 @@
     #benefitsSec section.flex.flexColumn > div {
         min-height: 32rem;
     }
+
+    /* About Section Style */
+    #aboutSec > div:first-child {
+        min-height: 76.5rem;
+    }
+
+    #aboutSec > div:last-child {
+        min-height: 34.5rem;
+    }
 }
 
 /***** LAYOUT: ONLY TABLET *****/
@@ -61,6 +70,15 @@
         min-height: 25rem;
         width: calc(100% / 2 - 1em);
     }
+
+    /* About Section Style */
+    #aboutSec > div:first-child {
+        min-height: 49.3rem;
+    }
+
+    #aboutSec > div:last-child {
+        min-height: 30.5rem;
+    }
 } 
 
 /***** LAYOUT: TABLET & DESKTOP *****/
@@ -74,6 +92,12 @@
     #benefitsSec section.flex.flexColumn {
         flex-flow: row wrap;
         justify-content: space-between;
+    }
+
+    /* About Section Style */
+    #aboutSec {
+        flex-direction: row;
+        align-items: flex-start;
     }
 }
 
@@ -119,5 +143,14 @@
     #benefitsSec section.flex.flexColumn>div {
         min-height: 21rem;
         width: calc(100% / 3 - 1em);
+    }
+
+    /* About Section Style */
+    #aboutSec > div:first-child {
+        min-height: 31.5rem;
+    }
+
+    #aboutSec > div:last-child {
+        min-height: 26.5rem;
     }
 }
