@@ -37,4 +37,22 @@ nav:last-child {
     display: none;
 }
 /******** MAIN STYLE ********/
+main {
+    margin-top: 6rem;
+}
+
+#heroSec > div > div {
+    border-radius: 1.5rem;
+    min-height: 28.5rem;
+}
+
+#demoBox {
+    /* height: 48.5rem; */
+    flex-grow: 1;
+}
+
+#cleanCodeBox {
+    flex-shrink: 2;
+}
+
 /******** FOOTER STYLE ********/
