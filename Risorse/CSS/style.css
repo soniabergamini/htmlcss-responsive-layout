@@ -58,8 +58,12 @@ main {
 /* Strategic Plan Section Style */
 
 /* Testimonials Section Style */
-#testimonialSec > * {
+#testimonialsSec > * {
     margin: 1em 0;
 }
 
+/* Benefits Section Style */
+#benefitsSec h2 {
+    margin-bottom: 1em;
+}
 /******** FOOTER STYLE ********/

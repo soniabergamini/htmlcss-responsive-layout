@@ -21,12 +21,17 @@
     }
 
     /* Testimonials Section Style */
-    #testimonialSec > div {
+    #testimonialsSec > div {
         min-height: 40rem;
+    }
+
+    /* Benefits Section Style */
+    #benefitsSec section.flex.flexColumn > div {
+        min-height: 32rem;
     }
 }
 
-/***** LAYOUT: ONLY TABLET*****/
+/***** LAYOUT: ONLY TABLET *****/
 @media screen and (min-width: 480px) and (max-width: 768px) {
     
     /* All Section Style - Debug */
@@ -47,17 +52,29 @@
     }
 
     /* Testimonials Section Style */
-    #testimonialSec > div {
+    #testimonialsSec > div {
         min-height: 16.5rem;
+    }
+
+    /* Benefits Section Style */    
+    #benefitsSec section.flex.flexColumn > div {
+        min-height: 25rem;
+        width: calc(100% / 2 - 1em);
     }
 } 
 
 /***** LAYOUT: TABLET & DESKTOP *****/
 @media screen and (min-width: 480px) {
     /* Main Style */
-        #heroSec > div {
-            flex-direction: row;
-        }
+    #heroSec > div {
+        flex-direction: row;
+    }
+
+    /* Benefits Section Style */
+    #benefitsSec section.flex.flexColumn {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
 }
 
 /***** LAYOUT: ONLY DESKTOP *****/
@@ -94,7 +111,13 @@
     }
 
     /* Testimonials Section Style */
-    #testimonialSec > div {
+    #testimonialsSec > div {
         min-height: 14rem;
+    }
+
+    /* Benefits Section Style */
+    #benefitsSec section.flex.flexColumn>div {
+        min-height: 21rem;
+        width: calc(100% / 3 - 1em);
     }
 }
