@@ -1,0 +1,27 @@
+/* Layout: Only Desktop */
+@media screen and (min-width: 768px) {
+
+    /* All Section Style - Debug */
+    body {
+        background-color: brown;
+    }
+}
+
+/* Layout: Only Tablet */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    
+    /* All Section Style - Debug */
+    body {
+            background-color: orange;
+        }
+} 
+
+/* Layout: Only Mobile */
+@media screen and (max-width: 480px) {
+
+    /* All Section Style - Debug */
+    body {
+            background-color: antiquewhite;
+        }
+}
+

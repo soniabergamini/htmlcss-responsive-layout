@@ -1,0 +1,27 @@
+/******** GENERAL STYLE ********/
+:root {
+    --blue: #0184FD;
+    --lilac: #9792E5;
+    --lightblue: #B5DDFF;
+    --orange: #FDC15E;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/******** HEADER STYLE ********/
+/******** MAIN STYLE ********/
+/******** FOOTER STYLE ********/

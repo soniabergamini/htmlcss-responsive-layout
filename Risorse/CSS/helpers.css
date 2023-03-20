@@ -1,0 +1,64 @@
+/********************************************
+        FLEX & GAP CONTAINERS HELPERS 
+********************************************/
+.flex           {display: flex;}
+.flexwrap       {flex-wrap: wrap;}
+.directRR       {flex-direction: row-reverse;}
+.spaceBtw       {justify-content: space-between;}
+.justyCtr       {justify-content: center;}
+.spaceARN       {justify-content: space-around;}
+.alignCtr       {align-items: center;}
+.alignStart     {align-items: flex-start;}
+.gap05          {gap: .5em;}
+
+/********************************************
+    POSITION, TRANSITION & DISPLAY HELPERS 
+ *******************************************/
+.secTrans       {transition: 0.8s;}
+.posFixed       {position: fixed;}
+.posRelative    {position: relative;}
+.posAbsolute    {position: absolute;}
+.displayBlock   {display: block;}
+
+/********************************************
+        UTILITY | Customize text  
+ *******************************************/
+.txtWhite       {color: white;}
+.txtGrey        {color: grey;}
+.txtBlack       {color: black;}
+.txtBlueCTA     {color: var(--blue);}
+.txtSmall       {font-size: small;}
+.txtUnderline   {text-decoration: underline;}
+.txtAlignCtr    {text-align: center;}
+.txtVertAlignMid{vertical-align: middle;}
+
+/********************************************
+        GENERIC UTILITIES 
+ *******************************************/
+.cursor         {cursor: pointer;}
+.listStyleNone  {list-style-type: none;}
+.visHidden      {visibility: hidden;}
+.boxShadow      {box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);}
+
+/********************************************
+    UTILITY | Width, Padding, Border, Margin 
+ *******************************************/
+.vw100          {width: 100vw;}
+.wid100Perc     {width: 100%;}
+.wid50Perc      {width: 50%;}
+.boxPad         {padding: 1.16rem;}
+.marginBottom8  {margin-bottom: 8rem !important;}
+.border         {border: 0.5px solid rgba(128, 128, 128, 0.883);}
+.borderBottom   {border-bottom: 0.5px solid grey;}
+
+/********************************************
+        UTILITY | hover 
+ *******************************************/
+.fontBigHov:hover       {font-size: 18px;}
+.boxShadowHov:hover     {box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);}
+.txtUnderHov:hover      {text-decoration: underline;}
+.changeColBlueHov:hover {color: var(--blue);}
+.txtUnderUpperHov:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
