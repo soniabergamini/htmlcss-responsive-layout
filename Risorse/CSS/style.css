@@ -43,7 +43,6 @@ main {
 
 /* Hero Section Style */
 #heroSec > div > div {
-    border-radius: 1.5rem;
     min-height: 28.5rem;
 }
 
@@ -57,7 +56,10 @@ main {
 }
 
 /* Strategic Plan Section Style */
-#strategicSec > div > div:last-child {
-    border-radius: 1.5rem;
+
+/* Testimonials Section Style */
+#testimonialSec > * {
+    margin: 1em 0;
 }
+
 /******** FOOTER STYLE ********/

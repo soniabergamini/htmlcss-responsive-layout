@@ -28,7 +28,8 @@
 .txtWhite       {color: white;}
 .txtGrey        {color: grey;}
 .txtBlack       {color: black;}
-.txtBlueCTA     {color: var(--blue);}
+.txtBlue        {color: var(--blue);}
+.txtLilac       {color: var(--lilac);}
 .txtSmall       {font-size: small;}
 .txtUnderline   {text-decoration: underline;}
 .txtAlignCtr    {text-align: center;}
@@ -53,9 +54,10 @@
 .vh100          {height: 100vh;}
 .wid100Perc     {width: 100%;}
 .wid50Perc      {width: 50%;}
-.pad2rem         {padding: 2rem;}
+.pad2rem        {padding: 2rem;}
 .marginBottom8  {margin-bottom: 8rem !important;}
 .border         {border: 1px solid black;}
+.borderRadius   {border-radius: 1.5rem;}
 .borderBottom   {border-bottom: 0.5px solid grey;}
 .boxCtr         {
     max-width: 57.5rem; /* 920px su 1536px */

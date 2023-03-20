@@ -19,6 +19,11 @@
     #strategicSec > div > div {
         min-height: 50rem;
     }
+
+    /* Testimonials Section Style */
+    #testimonialSec > div {
+        min-height: 40rem;
+    }
 }
 
 /***** LAYOUT: ONLY TABLET*****/
@@ -39,6 +44,11 @@
 
     #strategicSec > div > div:last-child {
         min-height: 52rem;
+    }
+
+    /* Testimonials Section Style */
+    #testimonialSec > div {
+        min-height: 16.5rem;
     }
 } 
 
@@ -81,5 +91,10 @@
 
     #strategicSec > div > div:last-child {
         min-height: 28rem;
+    }
+
+    /* Testimonials Section Style */
+    #testimonialSec > div {
+        min-height: 14rem;
     }
 }
