@@ -5,6 +5,47 @@
     body.debug {
         background-color: antiquewhite;
     }
+
+    /* MAIN STYLE */
+
+    /* Hero Section Style */
+    body.debug #heroSec > div:first-child {
+        min-height: 79.5rem;
+    }
+
+    /* Strategic Plan Section Style */
+    body.debug #strategicSec > div > div {
+        min-height: 50rem;
+    }
+
+    /* Testimonials Section Style */
+    body.debug #testimonialsSec > div {
+        min-height: 40rem;
+    }
+
+    /* Benefits Section Style */
+    body.debug #benefitsSec section.flex.flexColumn > div {
+        min-height: 32rem;
+    }
+
+    /* About Section Style */
+    body.debug #aboutSec > div:first-child {
+        min-height: 76.5rem;
+    }
+
+    body.debug #aboutSec > div:last-child {
+        min-height: 34.5rem;
+    }
+
+    /* CTA Section Style */
+    body.debug #ctaSec > div {
+        min-height: 49rem;
+    }
+
+    /* FOOTER STYLE */
+    body.debug footer {
+        min-height: 18.75rem;
+    }
 }
 
 /***** LAYOUT: ONLY TABLET *****/
@@ -13,6 +54,50 @@
     /* All Section Style - Debug */
     body.debug {
         background-color: orange;
+    }
+
+    /* MAIN STYLE */
+    /* Hero Section Style */
+    body.debug #heroSec > div > div {
+        min-height: 26rem;
+    }
+
+    /* Strategic Plan Section Style */
+    body.debug #strategicSec > div > div:first-child {
+        min-height: 59rem;
+    }
+
+    body.debug #strategicSec > div > div:last-child {
+        min-height: 52rem;
+    }
+
+    /* Testimonials Section Style */
+    body.debug #testimonialsSec > div {
+        min-height: 16.5rem;
+    }
+
+    /* Benefits Section Style */ 
+    body.debug #benefitsSec section.flex.flexColumn > div {
+        min-height: 25rem;
+    }
+
+    /* About Section Style */
+    body.debug #aboutSec > div:first-child {
+        min-height: 49.3rem;
+    }
+
+    body.debug #aboutSec > div:last-child {
+        min-height: 30.5rem;
+    }
+
+    /* CTA Section Style */
+    body.debug #ctaSec > div {
+        min-height: 37rem;
+    }
+
+    /* FOOTER STYLE */
+    body.debug footer {
+        min-height: 13.5rem;
     }
 }
 
@@ -23,6 +108,52 @@
     body.debug {
         background-color: brown;
     }
+
+    /* MAIN STYLE */
+
+    /* Hero Section Style */
+    body.debug #heroSec > div > div {
+        min-height: 17.2rem;
+    }
+
+    /* Strategic Plan Section Style */
+    body.debug #strategicSec > div > div:first-child {
+        min-height: 36.5rem;
+    }
+
+    body.debug #strategicSec > div > div:last-child {
+        min-height: 28rem;
+    }
+
+    /* Testimonials Section Style */
+    body.debug #testimonialsSec > div {
+        min-height: 14rem;
+    }
+
+    /* Benefits Section Style */
+    body.debug #benefitsSec section.flex.flexColumn > div {
+        min-height: 21rem;
+    }
+
+    /* About Section Style */
+    body.debug #aboutSec > div:first-child {
+        min-height: 31.5rem;
+    }
+
+    body.debug #aboutSec > div:last-child {
+        min-height: 26.5rem;
+    }
+
+    /* CTA Section Style */
+    body.debug #ctaSec > div {
+        min-height: 31.25rem;
+    }
+
+    /* FOOTER STYLE */
+    body.debug footer {
+        min-height: 11.25rem;
+    }
+
 }
 
 /***** LAYOUT: ONLY EXTRA LARGE DESKTOP *****/

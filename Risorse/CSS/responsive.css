@@ -11,52 +11,18 @@
     }
 
     /* MAIN STYLE */
-
     /* Hero Section Style */
-    #heroSec > div:first-child {
-        min-height: 79.5rem;
-    }
-
     /* Strategic Plan Section Style */
-    #strategicSec > div > div {
-        min-height: 50rem;
-    }
-
     /* Testimonials Section Style */
-    #testimonialsSec > div {
-        min-height: 40rem;
-    }
-
     /* Benefits Section Style */
-    #benefitsSec section.flex.flexColumn > div {
-        min-height: 32rem;
-    }
-
     /* About Section Style */
-    #aboutSec > div:first-child {
-        min-height: 76.5rem;
-    }
-
-    #aboutSec > div:last-child {
-        min-height: 34.5rem;
-    }
-
     /* CTA Section Style */
-    #ctaSec > div {
-        min-height: 49rem;
-    }
 
     /* FOOTER STYLE */
-    footer {
-        min-height: 18.75rem;
-    }
 }
 
 /***** LAYOUT: ONLY TABLET *****/
 @media screen and (min-width: 480px) and (max-width: 768px) {
-    
-    /* All Section Style - Debug */
-    body {background-color: orange;}
 
     /* HEADER STYLE */
     header > section {
@@ -76,48 +42,19 @@
         margin-top: 4.5rem;
     }
 
-    #heroSec > div > div {
-        min-height: 26rem;
-    }
-
+    /* Hero Section Style */
     /* Strategic Plan Section Style */
-    #strategicSec > div > div:first-child {
-        min-height: 59rem;
-    }
-
-    #strategicSec > div > div:last-child {
-        min-height: 52rem;
-    }
-
     /* Testimonials Section Style */
-    #testimonialsSec > div {
-        min-height: 16.5rem;
-    }
 
     /* Benefits Section Style */    
     #benefitsSec section.flex.flexColumn > div {
-        min-height: 25rem;
         width: calc(100% / 2 - 1em);
     }
 
     /* About Section Style */
-    #aboutSec > div:first-child {
-        min-height: 49.3rem;
-    }
-
-    #aboutSec > div:last-child {
-        min-height: 30.5rem;
-    }
-
     /* CTA Section Style */
-    #ctaSec > div {
-        min-height: 37rem;
-    }
 
     /* FOOTER STYLE */
-    footer {
-        min-height: 13.5rem;
-    }
 } 
 
 /***** LAYOUT: TABLET & DESKTOP *****/
@@ -167,9 +104,7 @@
         margin-top: 3.7rem;
     }
 
-    #heroSec > div > div {
-        min-height: 17.2rem;
-    }
+    /* Hero Section Style */
 
     /* Strategic Plan Section Style */
     #strategicSec > div {
@@ -177,43 +112,17 @@
         align-items: flex-end;
     }
 
-    #strategicSec > div > div:first-child {
-        min-height: 36.5rem;
-    }
-
-    #strategicSec > div > div:last-child {
-        min-height: 28rem;
-    }
-
     /* Testimonials Section Style */
-    #testimonialsSec > div {
-        min-height: 14rem;
-    }
 
     /* Benefits Section Style */
-    #benefitsSec section.flex.flexColumn>div {
-        min-height: 21rem;
+    #benefitsSec section.flex.flexColumn > div {
         width: calc(100% / 3 - 1em);
     }
 
     /* About Section Style */
-    #aboutSec > div:first-child {
-        min-height: 31.5rem;
-    }
-
-    #aboutSec > div:last-child {
-        min-height: 26.5rem;
-    }
-
     /* CTA Section Style */
-    #ctaSec > div {
-        min-height: 31.25rem;
-    }
 
     /* FOOTER STYLE */
-    footer {
-        min-height: 11.25rem;
-    }
 }
 
 /***** LAYOUT: ONLY EXTRA LARGE DESKTOP *****/
