@@ -1,5 +1,5 @@
 /***** LAYOUT: ONLY MOBILE *****/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 
     /* All Section Style - Debug */
     body.debug {
@@ -49,7 +49,7 @@
 }
 
 /***** LAYOUT: ONLY TABLET *****/
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
     /* All Section Style - Debug */
     body.debug {
@@ -102,7 +102,7 @@
 }
 
 /***** LAYOUT: ONLY DESKTOP *****/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
 
     /* All Section Style - Debug */
     body.debug {
