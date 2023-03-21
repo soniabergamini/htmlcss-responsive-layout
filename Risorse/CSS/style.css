@@ -27,11 +27,11 @@ header {
     z-index: 1;
     top: 0;
     left: 0;
+    border-bottom: 1px solid var(--lightblue);
 }
 
 header > section {
     padding: 1.5rem 2rem;
-    border-bottom: 1px solid var(--lightblue);
 }
 
 header i {
