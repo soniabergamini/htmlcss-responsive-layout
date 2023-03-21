@@ -5,11 +5,7 @@
 /***** LAYOUT: ONLY MOBILE *****/
 @media screen and (max-width: 480px) {
 
-    /* All Section Style - Debug */
-    body {background-color: antiquewhite;}
-
     /* HEADER STYLE */
-    
     header i {
         font-size: 2rem;
     }
@@ -75,7 +71,7 @@
         font-size: 2rem;
     }
 
-    /* Main Style */
+    /* MAIN STYLE */
     main {
         margin-top: 4.5rem;
     }
@@ -126,7 +122,7 @@
 
 /***** LAYOUT: TABLET & DESKTOP *****/
 @media screen and (min-width: 480px) {
-    /* Main Style */
+    /* MAIN STYLE */
     #heroSec > div {
         flex-direction: row;
     }
@@ -147,10 +143,7 @@
 /***** LAYOUT: ONLY DESKTOP *****/
 @media screen and (min-width: 768px) {
 
-    /* All Section Style - Debug */
-    body {background-color: brown;}
-
-    /* Header Style */
+    /* HEADER STYLE */
     header > section {
         padding: 0.7rem 2rem;
     }
@@ -169,7 +162,7 @@
         width: 50%;
     }
 
-    /* Main Style */
+    /* MAIN STYLE */
     main {
         margin-top: 3.7rem;
     }
@@ -222,3 +215,7 @@
         min-height: 11.25rem;
     }
 }
+
+/***** LAYOUT: ONLY EXTRA LARGE DESKTOP *****/
+/* @media screen and (min-width: 1200px) {
+} */

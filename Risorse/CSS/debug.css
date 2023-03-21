@@ -1,0 +1,34 @@
+/***** LAYOUT: ONLY MOBILE *****/
+@media screen and (max-width: 480px) {
+
+    /* All Section Style - Debug */
+    body.debug {
+        background-color: antiquewhite;
+    }
+}
+
+/***** LAYOUT: ONLY TABLET *****/
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+    /* All Section Style - Debug */
+    body.debug {
+        background-color: orange;
+    }
+}
+
+/***** LAYOUT: ONLY DESKTOP *****/
+@media screen and (min-width: 768px) {
+
+    /* All Section Style - Debug */
+    body.debug {
+        background-color: brown;
+    }
+}
+
+/***** LAYOUT: ONLY EXTRA LARGE DESKTOP *****/
+@media screen and (min-width: 1200px) {
+    /* All Section Style - Debug */
+    body.debug {
+        background-color: rgba(0, 0, 0, 0.411);
+    }
+}
