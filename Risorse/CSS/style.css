@@ -182,6 +182,20 @@ p {
     font-size: 1.3rem;
 }
 
+/* CTA Section Style */
+h1 {
+    font-size: 5rem;
+}
+
+#ctaSec button {
+    border: 1px solid white;
+    padding: 1.5rem 2.9rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: .2em;
+    margin: 0.5em 0;
+}
+
 /******** FOOTER STYLE ********/
 footer {
     background-color: #333333;
