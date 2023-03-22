@@ -49,6 +49,10 @@
     }
     /* Strategic Plan Section Style */
     /* Testimonials Section Style */
+    #testimonialsSec img {
+        width: 11.8rem;
+        height: 11.8rem;
+    }
 
     /* Benefits Section Style */    
     #benefitsSec section.flex.flexColumn > div {
@@ -81,6 +85,14 @@
     #aboutSec {
         flex-direction: row;
         align-items: flex-start;
+    }
+
+    /* Testimonials Section Style */
+    .testimonialBox {
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between;
+        text-align: left;
     }
 }
 
@@ -156,6 +168,18 @@
     }
 
     /* Testimonials Section Style */
+    #testimonialsSec img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    #testimonialsSec img {
+        margin-top: 0;
+    }
+
+    #testimonialsSec strong {
+        font-size: 1rem;
+    }
 
     /* Benefits Section Style */
     #benefitsSec section.flex.flexColumn > div {
