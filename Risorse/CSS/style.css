@@ -98,6 +98,23 @@ p {
 }
 
 /* Strategic Plan Section Style */
+#strategicSec i.fa-arrow-down {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+#strategicSec > div {
+    align-items: center;
+}
+
+#strategicSec > div > div:last-child {
+    width: 90%;
+}
+
+#strategicSec > div > div:last-child img {
+    width: 80%;
+}
+
 /* Testimonials Section Style */
 
 /* Benefits Section Style */

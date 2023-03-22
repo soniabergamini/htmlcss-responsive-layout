@@ -33,6 +33,7 @@
 .txtLilac       {color: var(--lilac);}
 .txtSmall       {font-size: small;}
 .txtUnderline   {text-decoration: underline;}
+.txtItalic      {font-style: italic;}
 .txtAlignCtr    {text-align: center;}
 .txtVertAlignMid{vertical-align: middle;}
 
@@ -54,6 +55,8 @@
 .vw100          {width: 100vw;}
 .vh100          {height: 100vh;}
 .wid100Perc     {width: 100%;}
+.wid80Perc      {width: 80%;}
+.wid60Perc      {width: 60%;}
 .wid50Perc      {width: 50%;}
 .pad2rem        {padding: 2rem;}
 .pad1rem        {padding: 1rem;}
@@ -61,6 +64,8 @@
 .marginLat05em  {margin: 0.5em 0;}
 .border         {border: 1px solid black;}
 .borderRadius   {border-radius: 1.5rem;}
+.borderRadius3  {border-radius: 4rem;}
+.borderRadius50 {border-radius: 50%;}
 .borderBottom   {border-bottom: 0.5px solid grey;}
 .boxCtr         {
     max-width: 57.5rem; /* 920px su 1536px */

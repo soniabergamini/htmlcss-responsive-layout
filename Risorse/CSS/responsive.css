@@ -12,8 +12,6 @@
     }
 
     /* MAIN STYLE */
-    /* Hero Section Style */
-    /* Strategic Plan Section Style */
     /* Testimonials Section Style */
     /* Benefits Section Style */
     /* About Section Style */
@@ -151,6 +149,10 @@
     #strategicSec > div {
         flex-direction: row;
         align-items: flex-end;
+    }
+
+    #strategicSec > div > div:last-child img {
+        width: 60%;
     }
 
     /* Testimonials Section Style */
