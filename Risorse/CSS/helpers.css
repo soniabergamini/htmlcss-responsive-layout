@@ -11,6 +11,7 @@
 .spaceARN       {justify-content: space-around;}
 .alignCtr       {align-items: center;}
 .alignStart     {align-items: flex-start;}
+.alignEnd       {align-items: flex-end;}
 .gap1em         {gap: 1em;}
 
 /********************************************
@@ -55,7 +56,9 @@
 .wid100Perc     {width: 100%;}
 .wid50Perc      {width: 50%;}
 .pad2rem        {padding: 2rem;}
-.marginBottom8  {margin-bottom: 8rem !important;}
+.pad1rem        {padding: 1rem;}
+.marginBottom8  {margin-bottom: 8rem;}
+.marginLat05em  {margin: 0.5em 0;}
 .border         {border: 1px solid black;}
 .borderRadius   {border-radius: 1.5rem;}
 .borderBottom   {border-bottom: 0.5px solid grey;}

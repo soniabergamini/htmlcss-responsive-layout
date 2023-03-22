@@ -45,6 +45,10 @@
     }
 
     /* Hero Section Style */
+    #demoBox img {
+        height: 100%;
+        object-fit: cover;
+    }
     /* Strategic Plan Section Style */
     /* Testimonials Section Style */
 
@@ -63,6 +67,8 @@
 /***** LAYOUT: TABLET & DESKTOP *****/
 @media screen and (min-width: 768px) {
     /* MAIN STYLE */
+
+    /* Hero Section Style */
     #heroSec > div {
         flex-direction: row;
     }
@@ -109,6 +115,37 @@
     }
 
     /* Hero Section Style */
+    #demoBox {
+        flex-direction: row;
+    }
+
+    #demoBox > div:first-child {
+        width: 60%;
+    }
+
+    #demoBox > div:last-child {
+        width: 40%;
+    }
+
+    #heroSec i:not(.fa-brands.fa-apple) {
+        font-size: clamp(4rem, 2vw, 6rem);
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: clamp(.85rem, 1vw, 1rem);
+        line-height: 1.8em;
+    }
+
+    #heroSec img {
+        width: 100%;
+        height: auto;
+        object-fit: fill;
+    }
 
     /* Strategic Plan Section Style */
     #strategicSec > div {

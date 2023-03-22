@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 *,
@@ -53,26 +53,52 @@ main {
 }
 
 /* Hero Section Style */
-#heroSec > div > div {
-    min-height: 28.5rem;
+#demoBox {
+    flex-grow: 1;
+    padding: 0 2rem;
 }
 
-#demoBox {
-    /* height: 48.5rem; */
-    flex-grow: 1;
+h2 {
+    font-size: 2rem;
+    margin: 1em 0;
+}
+
+p {
+    line-height: 2em;
+    color: rgb(72, 72, 72);
+    font-size: 1.4rem;
+    margin: 1em 0;
+}
+
+#heroSec button {
+    border: 1px solid var(--blue);
+    padding: 1em 3em;
+    letter-spacing: .3em;
+    font-size: 0.9rem;
+    margin: 1em 0;
+} 
+
+#demoBox > div:last-child {
+    padding-top: 10%;
+}
+
+#demoBox img {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
 }
 
 #cleanCodeBox {
     flex-shrink: 2;
 }
 
-/* Strategic Plan Section Style */
-
-/* Testimonials Section Style */
-#testimonialsSec > * ,
-#ctaSec > div > * {
-    margin: 1em 0;
+#heroSec i:not(.fa-brands.fa-apple) {
+    font-size: 6rem;
+    margin: 2rem 0;
 }
+
+/* Strategic Plan Section Style */
+/* Testimonials Section Style */
 
 /* Benefits Section Style */
 #benefitsSec h2 {

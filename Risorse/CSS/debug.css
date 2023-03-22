@@ -9,9 +9,6 @@
     /* MAIN STYLE */
 
     /* Hero Section Style */
-    body.debug #heroSec > div:first-child {
-        min-height: 79.5rem;
-    }
 
     /* Strategic Plan Section Style */
     body.debug #strategicSec > div > div {
@@ -58,9 +55,6 @@
 
     /* MAIN STYLE */
     /* Hero Section Style */
-    body.debug #heroSec > div > div {
-        min-height: 26rem;
-    }
 
     /* Strategic Plan Section Style */
     body.debug #strategicSec > div > div:first-child {
@@ -112,9 +106,9 @@
     /* MAIN STYLE */
 
     /* Hero Section Style */
-    body.debug #heroSec > div > div {
+    /* body.debug #heroSec > div > div {
         min-height: 17.2rem;
-    }
+    } */
 
     /* Strategic Plan Section Style */
     body.debug #strategicSec > div > div:first-child {
