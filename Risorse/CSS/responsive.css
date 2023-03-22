@@ -60,6 +60,9 @@
     }
 
     /* About Section Style */
+    #aboutSec p:not(.txtLilac) {
+        line-height: 1.8em;
+    }
     /* CTA Section Style */
 
     /* FOOTER STYLE */
@@ -103,6 +106,21 @@
 
     #benefitsBoxContainer h2:nth-child(2) {
         margin: 0.4rem 0;
+    }
+
+    /* About Us Section Style */
+    #aboutSec i {
+        top: 3%;
+        left: 50%;
+        font-size: 3.5rem;
+    }
+
+    #aboutSec > div:first-child {
+        width: 55%;
+    }
+
+    #aboutSec > div:last-child {
+        width: 45%;
     }
 }
 
@@ -197,6 +215,14 @@
     }
 
     /* About Section Style */
+    #aboutSec p:not(.txtLilac) {
+        font-size: clamp(0.9rem, 2vw, 1rem);
+        line-height: 1.8em;
+    }
+
+    #aboutSec > div > p:last-of-type:not(:last-child) {
+        font-size: 1.5rem;
+    }
     /* CTA Section Style */
 
     /* FOOTER STYLE */
