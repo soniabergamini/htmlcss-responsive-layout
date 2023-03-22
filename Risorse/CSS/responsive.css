@@ -10,14 +10,6 @@
     header i {
         font-size: 2rem;
     }
-
-    /* MAIN STYLE */
-    /* Testimonials Section Style */
-    /* Benefits Section Style */
-    /* About Section Style */
-    /* CTA Section Style */
-
-    /* FOOTER STYLE */
 }
 
 /*******************************/
@@ -47,7 +39,7 @@
         height: 100%;
         object-fit: cover;
     }
-    /* Strategic Plan Section Style */
+
     /* Testimonials Section Style */
     #testimonialsSec img {
         width: 11.8rem;
@@ -63,9 +55,6 @@
     #aboutSec p:not(.txtLilac) {
         line-height: 1.8em;
     }
-    /* CTA Section Style */
-
-    /* FOOTER STYLE */
 } 
 
 /************************************/
@@ -223,10 +212,6 @@
     #aboutSec > div > p:last-of-type:not(:last-child) {
         font-size: 1.5rem;
     }
-    
-    /* CTA Section Style */
-
-    /* FOOTER STYLE */
 }
 
 /********************************************/

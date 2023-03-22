@@ -9,10 +9,19 @@
     /* MAIN STYLE */
 
     /* Hero Section Style */
+    body.debug #heroSec > div:first-child {
+        min-height: 79.5rem;
+    }
 
     /* Strategic Plan Section Style */
+    body.debug #strategicSec > div > div {
+        min-height: 50rem;
+    }
 
     /* Testimonials Section Style */
+    body.debug #testimonialsSec > div {
+        min-height: 40rem;
+    }
 
     /* Benefits Section Style */
     body.debug #benefitsSec section.flex.flexColumn > div {
@@ -49,10 +58,23 @@
 
     /* MAIN STYLE */
     /* Hero Section Style */
+    body.debug #heroSec > div > div {
+        min-height: 26rem;
+    }
 
     /* Strategic Plan Section Style */
+    body.debug #strategicSec > div > div:first-child {
+        min-height: 59rem;
+    }
+
+    body.debug #strategicSec > div > div:last-child {
+        min-height: 52rem;
+    }
 
     /* Testimonials Section Style */
+    body.debug #testimonialsSec > div {
+        min-height: 16.5rem;
+    }
 
     /* Benefits Section Style */ 
     body.debug #benefitsSec section.flex.flexColumn > div {
@@ -90,13 +112,23 @@
     /* MAIN STYLE */
 
     /* Hero Section Style */
-    /* body.debug #heroSec > div > div {
+    body.debug #heroSec > div > div {
         min-height: 17.2rem;
-    } */
+    }
 
     /* Strategic Plan Section Style */
+    body.debug #strategicSec > div > div:first-child {
+        min-height: 36.5rem;
+    }
+
+    body.debug #strategicSec > div > div:last-child {
+        min-height: 28rem;
+    }
 
     /* Testimonials Section Style */
+    body.debug #testimonialsSec > div {
+        min-height: 14rem;
+    }
 
     /* Benefits Section Style */
     body.debug #benefitsSec section.flex.flexColumn > div {
