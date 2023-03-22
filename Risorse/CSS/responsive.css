@@ -94,6 +94,16 @@
         justify-content: space-between;
         text-align: left;
     }
+
+    /* Benefits Section Style */
+    #benefitsBoxContainer h2:first-child {
+        font-size: 3.1rem;
+        margin: 0;
+    }
+
+    #benefitsBoxContainer h2:nth-child(2) {
+        margin: 0.4rem 0;
+    }
 }
 
 /********************************/

@@ -136,6 +136,19 @@ p {
     margin-bottom: 1em;
 }
 
+#benefitsBoxContainer h2:first-child {
+    font-size: 4rem;
+    margin: 0.5rem 0;
+}
+
+#benefitsBoxContainer button {
+    border: 1px solid var(--lilac);
+    padding: 1em 3em;
+    letter-spacing: .3em;
+    font-size: 0.9rem;
+    margin: 0.5em 0;
+}
+
 /******** FOOTER STYLE ********/
 footer {
     background-color: #333333;
